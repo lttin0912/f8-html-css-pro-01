@@ -66,9 +66,49 @@ a {
 .hero-wrap {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: calc(100vh - 90px);
     background: #e6f0ff;
+}
+
+.hero-wrap .info {
+    width: 51%;
+}
+
+.hero-wrap .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+
+.hero-wrap .title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero-wrap .desc {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #5a6473;
+}
+
+.hero-wrap .hero-cta {
+    margin-top: 40px;
+    min-width: 170px;
+}
+
+.hero-wrap .hero-img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
 }
 
 .navbar {
@@ -107,49 +147,6 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-}
-
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
-    width: 51%;
-}
-
-.hero .sub-title {
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    letter-spacing: 0.01em;
-    color: #687690;
-}
-
-.hero .title {
-    margin-top: 8px;
-    font-weight: 700;
-    font-size: 6.2rem;
-    line-height: 1.19;
-    color: #000336;
-}
-
-.hero .desc {
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 1.78;
-    color: #5a6473;
-}
-
-.hero .hero-cta {
-    margin-top: 40px;
-    min-width: 170px;
-}
-
-.hero .hero-img {
-    position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
-    bottom: 0;
 }
 
 /* Clients */
