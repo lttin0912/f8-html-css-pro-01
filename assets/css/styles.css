@@ -307,7 +307,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -515,7 +516,7 @@ a {
 .stats .qty-desc {
     margin-top: 24px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 27px;
     color: #7b8087;
 }
@@ -578,7 +579,7 @@ a {
     display: flex;
 }
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
